@@ -1555,17 +1555,7 @@ chunk (runtime: e1, e2, e3) async2.js (async2) 89 bytes [rendered]
 `;
 
 exports[`StatsTestCases should print correct stats for module-not-found-error 1`] = `
-"ERROR in ./index.js 1:0-17
-Module not found: Error: Can't resolve 'buffer' in 'Xdir/module-not-found-error'
-
-BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
-This is no longer the case. Verify if you need this module and configure a polyfill for it.
-
-If you want to include a polyfill, you need to install 'buffer'.
-If you don't want to include a polyfill, you can use an empty module like this:
-	resolve.alias: { \\"buffer\\": false }
-
-ERROR in ./index.js 2:0-13
+"ERROR in ./index.js 2:0-13
 Module not found: Error: Can't resolve 'os' in 'Xdir/module-not-found-error'
 
 BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
@@ -2142,7 +2132,7 @@ webpack/runtime/jsonp chunk loading 2.93 KiB {179} [runtime]
 webpack/runtime/load script 1.36 KiB {179} [runtime]
       [no exports]
       [used exports unknown]
-webpack/runtime/publicPath 27 bytes {179} [runtime]
+webpack/runtime/publicPath 410 bytes {179} [runtime]
       [no exports]
       [used exports unknown]
 
@@ -2366,7 +2356,7 @@ chunk {179} (runtime: main) main.js (main) 73 bytes (javascript) 4.88 KiB (runti
  webpack/runtime/load script 1.36 KiB {179} [runtime]
        [no exports]
        [used exports unknown]
- webpack/runtime/publicPath 27 bytes {179} [runtime]
+ webpack/runtime/publicPath 410 bytes {179} [runtime]
        [no exports]
        [used exports unknown]
 chunk {460} (runtime: main) 460.js 54 bytes <{179}> >{524}< [rendered]
